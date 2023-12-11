@@ -69,11 +69,6 @@ public class RaziaMotor extends JFrame {
 		contentPane.add(textNama);
 		textNama.setColumns(10);
 		
-		textUmur = new JTextField();
-		textUmur.setBounds(57, 66, 46, 20);
-		contentPane.add(textUmur);
-		textUmur.setColumns(10);
-		
 		JLabel lblNewLabel_2 = new JLabel("Aplikasi Razia Motor Online");
 		lblNewLabel_2.setForeground(new Color(70, 49, 142));
 		lblNewLabel_2.setFont(new Font("Al Bayan", Font.BOLD, 14));
@@ -91,6 +86,11 @@ public class RaziaMotor extends JFrame {
 		CBSIM.setModel(new DefaultComboBoxModel(new String[] {"Ya", "Tidak"}));
 		CBSIM.setBounds(58, 94, 89, 22);
 		contentPane.add(CBSIM);
+		
+		textUmur = new JTextField();
+		textUmur.setBounds(57, 66, 46, 20);
+		contentPane.add(textUmur);
+		textUmur.setColumns(10);
 		
 		JLabel lblinfo = new JLabel("");
 		lblinfo.setBounds(58, 134, 319, 30);
