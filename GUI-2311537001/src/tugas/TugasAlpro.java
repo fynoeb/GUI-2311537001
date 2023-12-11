@@ -29,7 +29,7 @@ public class TugasAlpro extends JFrame {
         panel.add(new JLabel("NIM:"));
         textFieldNIM = new JTextField();
         panel.add(textFieldNIM);
-        String[] jurusanOptions = {"Teknik Informatika", "Sistem Informasi", "Teknik Elektro"};
+        String[] jurusanOptions = {"Informatika", "Sistem Informasi", "Teknik Komputer"};
         
                 JLabel label = new JLabel("Jurusan:");
                 panel.add(label);
