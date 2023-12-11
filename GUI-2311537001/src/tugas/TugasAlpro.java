@@ -65,8 +65,7 @@ public class TugasAlpro extends JFrame {
         String nim = textFieldNIM.getText();
         String jurusan = (String) comboBoxJurusan.getSelectedItem();
 
-        // Lakukan penyimpanan data sesuai kebutuhan (misalnya, ke database atau file)
-        // Di sini, kita hanya mencetak data sebagai contoh
+       
         System.out.println("Data Mahasiswa Disimpan:");
         System.out.println("Nama: " + nama);
         System.out.println("NIM: " + nim);
